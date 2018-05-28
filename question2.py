@@ -26,3 +26,6 @@ cust_2 = phonebill('A9846','Hicks',00.00,'P', [70, 139])
 
 print(cust_2.__dict__)
 
+# an = phonebill.__dict__
+# attrs = vars(an)
+# print ', '.join("%s: %s" % item for item in attrs.items())
