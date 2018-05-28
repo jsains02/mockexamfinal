@@ -24,7 +24,7 @@ class phonebill:
 cust_1 = phonebill('A9845','Hurley',37.5,'R',55)
 cust_2 = phonebill('A9846','Hicks',00.00,'P', [70, 139])
 
-print(cust_2.__dict__)
+print(cust_1.__dict__)
 
 # an = phonebill.__dict__
 # attrs = vars(an)
